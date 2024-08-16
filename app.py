@@ -80,7 +80,7 @@ st.write(
     """
 ✔️ 20 years of professional experience in the construction industry, with a focus on project and contract management  
 ✔️ Adept at building strong client relationships and delivering projects that exceed expectations   
-✔️ Excellent problem-solving abilities, with a hands-on approach to overcoming challenges on-site  
+✔️ Excellent problem-solving abilities, with a hands-on approach to overcoming challenges on-site
 """
 )
 
@@ -124,7 +124,7 @@ Harnessing Machine Learning and Adaptive Technology to Secure Telecommunications
 )
 
 # --- JOB 0
-st.write("🚧", "**Co-founder** @ Mackie Mobile LLC| Linköping, Sweden")
+st.write("🚧", "**Co-founder** @ Mackie Mobile LLC | Linköping, Sweden")
 st.write("2024 - Present")
 st.write(
     """
