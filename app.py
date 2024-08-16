@@ -114,8 +114,8 @@ Your one-stop shop for telecommunications & fraud prevention - designed with sec
 
 Founded in Sweden in 2024, ConnectXpress AB emerges as a leader in innovation in the telecommunications landscape. With over a decade of collective telecommunication experience, our team is dedicated to revolutionizing connectivity solutions. At ConnectXpress, we provide a range of services including A2P SMS messaging connectivity, virtual numbers, number lookup services, fraud prevention, and operator services.
 
-🛡️ Protectify Networks
-🌐 Connectify Networks
+🛡️ Protectify Networks  
+🌐 Connectify Networks  
 🔎 Verify Networks
 
 Connect, Protect & Verify
