@@ -19,26 +19,16 @@ DESCRIPTION = """
 Entrepreneur | Successful business owner
 """
 EMAIL = "michael.mackie@proton.me"
-# SOCIAL_MEDIA = {
-#     #"LinkedIn": "https://linkedin.com/in/anton-ivarsson",
-#     "GitHub": "https://github.com/Swabuu",
-# }
-# PROJECTS = {
-#     ":calling: mccmnc.se - Webscraped mobile network operator data. Includes subscriber counts and network owners as well as the technology used": "https://mccmnc.se/",
-#     ":iphone: A simple Android application which parses incoming SMS messages and sends the Sender ID, MSISDN (destination), SMS Body and SMSC-address to an external webservice": "https://github.com/Swabuu/testunit"
-
-# }
-
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
-# hide_st_style = """
-#             <style>
-#             #MainMenu {visibility: hidden;}
-#             footer {visibility: hidden;}
-#             header {visibility: hidden;}
-#             </style>
-#             """
-# st.markdown(hide_st_style, unsafe_allow_html=True)
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 with open(css_file) as f:
@@ -64,14 +54,6 @@ with col2:
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
-
-
-# --- SOCIAL LINKS ---
-# st.write("#")
-# cols = st.columns(len(SOCIAL_MEDIA))
-# for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-#     cols[index].write(f"[{platform}]({link})")
-
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write("#")
